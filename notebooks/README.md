@@ -27,9 +27,9 @@ Extract audio, text transcriptions, and frames from video files.
 
 Generate AI-powered descriptions for extracted video frames.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/YOUR_NOTEBOOK_ID_2)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15r2XMoSW-xx3WPewuuZK3zUkfzGJBMF4#scrollTo=pj9ZsJPbZXwv)
 
-**Notebook:** [Demo_image_description_generation](https://colab.research.google.com/drive/YOUR_NOTEBOOK_ID_2)
+**Notebook:** [Demo_image_description_generation](https://colab.research.google.com/drive/15r2XMoSW-xx3WPewuuZK3zUkfzGJBMF4#scrollTo=pj9ZsJPbZXwv)
 
 **What it does:**
 - Loads extracted frames from Google Drive
