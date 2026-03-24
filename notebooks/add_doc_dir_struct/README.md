@@ -1,10 +1,3 @@
-Here are clean **Markdown (`.md`) files** you can place directly into your repo (e.g., `/docs/structure.md`). I structured them to match your Colab + AI agent philosophy and make it understandable for others.
-
----
-
-# 📁 `DATASET_STRUCTURE.md`
-
-```md
 # FAIR-VID Dataset & Colab Output Structure
 
 This document explains the directory structure used in the FAIR-VID multimodal preprocessing pipeline.
@@ -63,6 +56,8 @@ Example:
 ```
 - Real applications from production systems
 - Each folder corresponds to a real applicant + application
+
+*❕ For real data testing, we strongly recommend storing all data on Google Drive in encrypted format and decrypting it exclusively at execution time.*
 
 ---
 
@@ -292,71 +287,4 @@ Each folder → becomes a service endpoint
 
 ---
 
-# 📁 Optional second file (shorter, for README)
 
-## `STRUCTURE_OVERVIEW.md`
-
-```md
-# FAIR-VID Folder Structure (Quick Overview)
-
-## Application Level
-
-```
-
-<applicant_id>_<application_id>/
-
-```
-
-Examples:
-- `0_0` → test
-- `10000000_*` → synthetic
-- others → real data
-
----
-
-## Agent-Based Design
-
-Each subfolder = **AI agent output**
-
-### Documents
-- `documents_image/` → raw
-- `documents_image_text_pytesseract/` → OCR
-- `documents_image_llm_text_*` → LLM extraction
-- `document summaries_*` → summaries
-
-### Video
-- `video_interviews/` → raw
-- `video_frame_text_*` → frame understanding
-
-### Shared Modalities
-- `video_interviews_audio_files/`
-- `video_interviews_audio_transcriptions_text/`
-- `video_interviews_blendshape_files/`
-- `video_interviews_audio_emotions/`
-
----
-
-## Key Idea
-
-> The best way to build AI systems is to decompose them into transparent AI agents executed as notebooks.
-
-Each folder = reproducible step.
-
----
-
-## Benefits
-
-- Transparent
-- Modular
-- Reproducible in Colab
-- Easy to debug
-- Ready for enterprise deployment
-```
-
----
-
-If you want, I can next:
-
-* turn this into **GitHub-ready README with diagrams**
-* generate a **visual pipeline diagram (Mermaid)**
-* or align wording directly with your paper (IEEE / ISD tone)
